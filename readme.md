@@ -26,7 +26,7 @@ services:
   wp:
     depends_on:
     - db
-    image: andreccosta/wordpress-xdebug
+    image: orhant/wp:latest
     volumes:
     - ./wp:/var/www/html
     ports:
@@ -55,7 +55,7 @@ Example configuration file `.vscode/launch.json`:
       "name": "Listen for XDebug",
       "type": "php",
       "request": "launch",
-      "port": 9000,
+      "port": 9050,
       "pathMappings": {
         "/var/www/html": "${workspaceRoot}/wp",
       }

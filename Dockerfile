@@ -1,7 +1,7 @@
 FROM wordpress:latest
 LABEL maintainer André Costa <andreccosta@me.com>
 
-ENV XDEBUG_PORT 9900
+ENV XDEBUG_PORT 9005
 ENV XDEBUG_IDEKEY docker
 
 RUN pecl install "xdebug" \

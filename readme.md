@@ -55,7 +55,7 @@ Example configuration file `.vscode/launch.json`:
       "name": "Listen for XDebug",
       "type": "php",
       "request": "launch",
-      "port": 9050,
+      "port": 9009,
       "pathMappings": {
         "/var/www/html": "${workspaceRoot}/wp",
       }
